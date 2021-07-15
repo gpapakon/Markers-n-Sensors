@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "442311969864",
+    "firebase_url": "https://mapsandmarkers.firebaseio.com",
+    "project_id": "mapsandmarkers",
+    "storage_bucket": "mapsandmarkers.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:442311969864:android:a4355ceaf24f4501ea9c7d",
+        "android_client_info": {
+          "package_name": "com.example.firstmap"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "442311969864-tdvupvom7dbb8ghcs9b62rdteg0e4nbk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.firstmap",
+            "certificate_hash": "742c8faffd1ee163766ac9ceb59df7401d65c318"
+          }
+        },
+        {
+          "client_id": "442311969864-3r2kdio435vuagr74f5r8fmnnr0sfebl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBKLo_3cGWNS_vMufrpsl6yKYdeDFexMNc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "442311969864-3r2kdio435vuagr74f5r8fmnnr0sfebl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

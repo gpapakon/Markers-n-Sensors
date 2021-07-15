@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".OptionActivity">
+
+
+<TextView
+    android:id="@+id/textView"
+    android:layout_width="245dp"
+    android:layout_height="42dp"
+    android:layout_marginTop="36dp"
+    android:text="Choose Marker Color"
+    android:textAlignment="viewStart"
+    android:textSize="24sp"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.118"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent" />
+
+<RadioGroup
+    android:id="@+id/ButtonGroup"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="32dp"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.048"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/textView">
+
+    <RadioButton
+        android:id="@+id/B1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Red"
+        android:checked="true"/>
+
+    <RadioButton
+        android:id="@+id/B2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Blue" />
+
+    <RadioButton
+        android:id="@+id/B3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Green" />
+
+    <RadioButton
+        android:id="@+id/B4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Yellow" />
+
+    <RadioButton
+        android:id="@+id/B5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Orange" />
+</RadioGroup>
+
+<TextView
+    android:id="@+id/textView3"
+    android:layout_width="139dp"
+    android:layout_height="27dp"
+    android:layout_marginTop="32dp"
+    android:text="Add a Caption:"
+    android:textAlignment="center"
+    android:textSize="18sp"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.427"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+<EditText
+    android:id="@+id/CaptionId"
+    android:layout_width="279dp"
+    android:layout_height="106dp"
+    android:layout_marginTop="28dp"
+    android:ems="10"
+    android:inputType="textPersonName"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.954"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+    <TextView
+        android:id="@+id/HumidityID"
+        android:layout_width="179dp"
+        android:layout_height="54dp"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.599" />
+
+    <Button
+    android:id="@+id/GobackBt"
+    android:layout_width="136dp"
+    android:layout_height="43dp"
+    android:layout_marginBottom="152dp"
+    android:text="Go Back"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.941"
+    app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
